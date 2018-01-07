@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="300dp"
+        android:id="@+id/xqsdv1"
+        android:layout_gravity="center"
+        android:layout_height="300dp" />
+    <TextView
+        android:id="@+id/tvtitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tiaozhuan1"
+            android:layout_weight="1"
+            android:text="跳转到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/tianjia1"
+            android:layout_weight="1"
+            android:text="添加到购物车"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
